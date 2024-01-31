@@ -1,9 +1,9 @@
 const Rating = (props) => {
   const {
     id = 0,
-    handleChoice = () => {},
+    handleChoice,
     children,
-    classname = "bg-[#7c8798] opacity-50 hover:bg-[#959eac] ",
+    classname = "bg-[#7c8798] hover:bg-[#959eac] ",
     type = "button",
   } = props;
   return (
