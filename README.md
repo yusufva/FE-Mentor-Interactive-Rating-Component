@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Link](https://your-solution-url.com)
-- Live Site URL: [Link](https://your-live-site-url.com)
+- Solution URL: [Link Github](https://github.com/yusufva/FE-Mentor-Interactive-Rating-Component)
+- Live Site URL: [Link Vercel](https://your-live-site-url.com)
 
 ## My process
 
