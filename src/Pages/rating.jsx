@@ -23,18 +23,16 @@ const rating = [
 const RatingPage = () => {
   const [isChoice, setIsChoice] = useState();
 
-  useEffect(() => {
-    console.log(isChoice);
-  }, [isChoice]);
+  useEffect(() => {}, [isChoice]);
 
   const handleChoice = (id) => {
     setIsChoice(id);
-    console.log(isChoice);
   };
   return (
     <div>
       <div className="flex justify-center min-h-screen items-center bg-[#121417]">
         <CardRating>
+          {console.log(isChoice)}
           <CardRating.Header />
           <CardRating.Body>
             {rating.map((rating) => {
@@ -47,7 +45,7 @@ const RatingPage = () => {
                       ? "bg-orange-500"
                       : "hover:bg-[#959eac] hover:text-white bg-gray-800"
                   }
-                  onClick={handleChoice}
+                  handleChoice={handleChoice}
                 >
                   {rating.id}
                 </Rating>
