@@ -41,8 +41,8 @@ const RatingPage = () => {
                   key={rating.id}
                   id={rating.id}
                   classname={
-                    "" + isChoice === rating.id
-                      ? "bg-orange-500"
+                    isChoice === rating.id
+                      ? "bg-orange-500 text-white"
                       : "hover:bg-[#959eac] hover:text-white bg-gray-800"
                   }
                   handleChoice={handleChoice}
