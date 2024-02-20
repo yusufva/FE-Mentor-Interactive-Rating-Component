@@ -111,6 +111,19 @@ const CardThankyou = ({ id }) => {
                     ever need more support, don’t hesitate to get in touch!
                 </p>
             </div>
+            <p className=" text-xs italic text-white mt-8 mx-auto">
+                Challenge by{" "}
+                <a
+                    href="https://www.frontendmentor.io/?ref=challenge"
+                    className=" underline "
+                >
+                    Frontend Mentor.
+                </a>{" "}
+                Coded by{" "}
+                <a href="" className="underline">
+                    Yusuf Valent
+                </a>
+            </p>
         </div>
     );
 };

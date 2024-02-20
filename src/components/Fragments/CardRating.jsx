@@ -43,13 +43,28 @@ const Body = ({ children }) => {
 
 const Footer = ({ handleSubmit }) => {
     return (
-        <Button
-            classname="bg-orange-500 hover:bg-orange-700 focus:bg-white focus:text-orange-500 w-full rounded-full h-14"
-            type="submit"
-            onClick={() => handleSubmit()}
-        >
-            Submit
-        </Button>
+        <>
+            <Button
+                classname="bg-orange-500 hover:bg-orange-700 focus:bg-white focus:text-orange-500 w-full rounded-full h-14"
+                type="submit"
+                onClick={() => handleSubmit()}
+            >
+                Submit
+            </Button>
+            <p className=" text-xs italic text-white mt-8 mx-auto">
+                Challenge by{" "}
+                <a
+                    href="https://www.frontendmentor.io/?ref=challenge"
+                    className=" underline "
+                >
+                    Frontend Mentor.
+                </a>{" "}
+                Coded by{" "}
+                <a href="" className="underline">
+                    Yusuf Valent
+                </a>
+            </p>
+        </>
     );
 };
 
