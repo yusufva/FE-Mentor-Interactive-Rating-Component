@@ -4,13 +4,13 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
+-   [Overview](#overview)
+    -   [The challenge](#the-challenge)
+    -   [Screenshot](#screenshot)
+    -   [Links](#links)
+-   [My process](#my-process)
+    -   [Built with](#built-with)
+-   [Author](#author)
 
 ## Overview
 
@@ -18,10 +18,10 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 Users should be able to:
 
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Select and submit a number rating
-- See the "Thank you" card state after submitting a rating
+-   View the optimal layout for the app depending on their device's screen size
+-   See hover states for all interactive elements on the page
+-   Select and submit a number rating
+-   See the "Thank you" card state after submitting a rating
 
 ### Screenshot
 
@@ -29,17 +29,17 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Link Github](https://github.com/yusufva/FE-Mentor-Interactive-Rating-Component)
-- Live Site URL: [Link Vercel](https://your-live-site-url.com)
+-   Solution URL: [Link Github](https://github.com/yusufva/FE-Mentor-Interactive-Rating-Component)
+-   Live Site URL: [Link Vercel](https://fe-mentor-interactive-rating-component-yusufva.vercel.app/)
 
 ## My process
 
 ### Built with
 
-- [React](https://reactjs.org/) - JS library
-- [Tailwind CSS](https://tailwindcss.com/) - For styles
+-   [React](https://reactjs.org/) - JS library
+-   [Tailwind CSS](https://tailwindcss.com/) - For styles
 
 ## Author
 
-- Website - [Yusuf Valent]()
-- Frontend Mentor - [@yusufva](https://www.frontendmentor.io/profile/yusufva)
+-   Website - [Yusuf Valent]()
+-   Frontend Mentor - [@yusufva](https://www.frontendmentor.io/profile/yusufva)
